@@ -23,5 +23,5 @@ jobs:
           pip install awsebcli
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb init    
+          eb init --region us-east-1    
           eb deploy
